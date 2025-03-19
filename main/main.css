@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+}
+
+button {
+    border-radius: 0.15cm;
+    padding: 0.25cm;
+    color: rgb(0, 0, 0);
+    border: none;
+    background-color: white;
+    outline: none;
+}
+
+.white-container-grad {
+    background-color: white;
+    color: black;
+    padding: 0.25cm;
+    border-radius: 0.15cm;
+    margin: 10px;
+    background-image: linear-gradient(57deg, #ffcdfc, rgb(181, 255, 212));
+    width: 220px;
+}
+
+.white-container {
+    background-color: white;
+    color: black;
+    padding: 0.25cm;
+    border-radius: 0.15cm;
+    margin: 10px;
+    width: 220px;
+    outline: none;
+    border: none;
+}
+
+.blur {
+    backdrop-filter: blur(25px);
+    color: white;
+    padding: 0.25cm;
+    border-radius: 0.15cm;
+    margin: 10px;
+}
+
+.input-txt::placeholder {
+    color: white;
+}
